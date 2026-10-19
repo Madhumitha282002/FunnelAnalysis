@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.ini
+*.secrets
+*credentials*.json
+*service-account*.json
+*.key
+*.pem
+
+# Generated data and analysis outputs
+data/*.parquet
+outputs/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
