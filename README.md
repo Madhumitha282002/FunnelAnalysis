@@ -119,13 +119,13 @@ Several results that looked like findings turned out to be data artifacts. Each 
 4. Run the SQL files in the BigQuery console, in order: `02_events_clean.sql`, then `04_session_funnel.sql`. Files `01` and `03` are exploration and quality checks.
 5. Run the analysis scripts from the repository root:
 ```
-   python src/day2_funnel.py
-   python src/day3_segments.py
-   python src/day3_followup.py
-   python src/day4_behavior.py
-   python src/day5_diagnosis.py
-   python src/day5_steps.py
-   python src/day6_sizing_power.py
+   python src/02_funnel.py
+   python src/03_segments.py
+   python src/03_followup.py
+   python src/04_behavior.py
+   python src/05_diagnosis.py
+   python src/05_followup.py
+   python src/06_sizing_power.py
 ```
 6. Build and launch the dashboard locally:
 ```
